@@ -10,6 +10,16 @@
 		4E4DD0EA19FA2CB40073A237 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DD0E919FA2CB40073A237 /* main.c */; };
 		4E4DD0EC19FA2CB40073A237 /* DesignPatterns.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4E4DD0EB19FA2CB40073A237 /* DesignPatterns.1 */; };
 		4E4DD0F419FA2CD50073A237 /* SingleTon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4DD0F319FA2CD50073A237 /* SingleTon.m */; };
+		4ED2E1F419FA32A400873CEE /* AbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED2E1F319FA32A400873CEE /* AbstractFactory.m */; };
+		4ED2E1F719FA32C500873CEE /* Adapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED2E1F619FA32C500873CEE /* Adapter.m */; };
+		4ED2E1FA19FA32D200873CEE /* Bridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED2E1F919FA32D200873CEE /* Bridge.m */; };
+		4ED2E1FD19FA32E800873CEE /* Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED2E1FC19FA32E800873CEE /* Builder.m */; };
+		4ED2E20019FA32FA00873CEE /* Chain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED2E1FF19FA32FA00873CEE /* Chain.m */; };
+		4ED2E20319FA330800873CEE /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED2E20219FA330800873CEE /* Command.m */; };
+		4ED2E20619FA332400873CEE /* Composite.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED2E20519FA332400873CEE /* Composite.m */; };
+		4ED2E20919FA333600873CEE /* Decorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED2E20819FA333600873CEE /* Decorator.m */; };
+		4ED2E20C19FA334D00873CEE /* FactoryMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED2E20B19FA334D00873CEE /* FactoryMethod.m */; };
+		4ED2E20F19FA336100873CEE /* Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED2E20E19FA336100873CEE /* Observer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +41,26 @@
 		4E4DD0EB19FA2CB40073A237 /* DesignPatterns.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DesignPatterns.1; sourceTree = "<group>"; };
 		4E4DD0F219FA2CD50073A237 /* SingleTon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleTon.h; sourceTree = "<group>"; };
 		4E4DD0F319FA2CD50073A237 /* SingleTon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingleTon.m; sourceTree = "<group>"; };
+		4ED2E1F219FA32A400873CEE /* AbstractFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
+		4ED2E1F319FA32A400873CEE /* AbstractFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractFactory.m; sourceTree = "<group>"; };
+		4ED2E1F519FA32C500873CEE /* Adapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adapter.h; sourceTree = "<group>"; };
+		4ED2E1F619FA32C500873CEE /* Adapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Adapter.m; sourceTree = "<group>"; };
+		4ED2E1F819FA32D200873CEE /* Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		4ED2E1F919FA32D200873CEE /* Bridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bridge.m; sourceTree = "<group>"; };
+		4ED2E1FB19FA32E800873CEE /* Builder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Builder.h; sourceTree = "<group>"; };
+		4ED2E1FC19FA32E800873CEE /* Builder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Builder.m; sourceTree = "<group>"; };
+		4ED2E1FE19FA32FA00873CEE /* Chain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chain.h; sourceTree = "<group>"; };
+		4ED2E1FF19FA32FA00873CEE /* Chain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chain.m; sourceTree = "<group>"; };
+		4ED2E20119FA330800873CEE /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Command.h; path = ../Command.h; sourceTree = "<group>"; };
+		4ED2E20219FA330800873CEE /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Command.m; path = ../Command.m; sourceTree = "<group>"; };
+		4ED2E20419FA332400873CEE /* Composite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Composite.h; sourceTree = "<group>"; };
+		4ED2E20519FA332400873CEE /* Composite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Composite.m; sourceTree = "<group>"; };
+		4ED2E20719FA333600873CEE /* Decorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decorator.h; sourceTree = "<group>"; };
+		4ED2E20819FA333600873CEE /* Decorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decorator.m; sourceTree = "<group>"; };
+		4ED2E20A19FA334D00873CEE /* FactoryMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryMethod.h; sourceTree = "<group>"; };
+		4ED2E20B19FA334D00873CEE /* FactoryMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryMethod.m; sourceTree = "<group>"; };
+		4ED2E20D19FA336100873CEE /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		4ED2E20E19FA336100873CEE /* Observer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +97,26 @@
 				4E4DD0EB19FA2CB40073A237 /* DesignPatterns.1 */,
 				4E4DD0F219FA2CD50073A237 /* SingleTon.h */,
 				4E4DD0F319FA2CD50073A237 /* SingleTon.m */,
+				4ED2E1F219FA32A400873CEE /* AbstractFactory.h */,
+				4ED2E1F319FA32A400873CEE /* AbstractFactory.m */,
+				4ED2E1F519FA32C500873CEE /* Adapter.h */,
+				4ED2E1F619FA32C500873CEE /* Adapter.m */,
+				4ED2E1F819FA32D200873CEE /* Bridge.h */,
+				4ED2E1F919FA32D200873CEE /* Bridge.m */,
+				4ED2E1FB19FA32E800873CEE /* Builder.h */,
+				4ED2E1FC19FA32E800873CEE /* Builder.m */,
+				4ED2E1FE19FA32FA00873CEE /* Chain.h */,
+				4ED2E1FF19FA32FA00873CEE /* Chain.m */,
+				4ED2E20119FA330800873CEE /* Command.h */,
+				4ED2E20219FA330800873CEE /* Command.m */,
+				4ED2E20419FA332400873CEE /* Composite.h */,
+				4ED2E20519FA332400873CEE /* Composite.m */,
+				4ED2E20719FA333600873CEE /* Decorator.h */,
+				4ED2E20819FA333600873CEE /* Decorator.m */,
+				4ED2E20A19FA334D00873CEE /* FactoryMethod.h */,
+				4ED2E20B19FA334D00873CEE /* FactoryMethod.m */,
+				4ED2E20D19FA336100873CEE /* Observer.h */,
+				4ED2E20E19FA336100873CEE /* Observer.m */,
 			);
 			path = DesignPatterns;
 			sourceTree = "<group>";
@@ -123,7 +173,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E4DD0EA19FA2CB40073A237 /* main.c in Sources */,
+				4ED2E1F719FA32C500873CEE /* Adapter.m in Sources */,
+				4ED2E1FA19FA32D200873CEE /* Bridge.m in Sources */,
+				4ED2E20619FA332400873CEE /* Composite.m in Sources */,
+				4ED2E20319FA330800873CEE /* Command.m in Sources */,
+				4ED2E20019FA32FA00873CEE /* Chain.m in Sources */,
+				4ED2E1FD19FA32E800873CEE /* Builder.m in Sources */,
+				4ED2E20C19FA334D00873CEE /* FactoryMethod.m in Sources */,
 				4E4DD0F419FA2CD50073A237 /* SingleTon.m in Sources */,
+				4ED2E20F19FA336100873CEE /* Observer.m in Sources */,
+				4ED2E1F419FA32A400873CEE /* AbstractFactory.m in Sources */,
+				4ED2E20919FA333600873CEE /* Decorator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +293,7 @@
 				4E4DD0F119FA2CB40073A237 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
